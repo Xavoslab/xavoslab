@@ -6,7 +6,7 @@ interface LogoProps {
 }
 const Logo: React.FC<LogoProps> = ({ variant }) => {
   return ( 
-    <div className='flex items-center gap-2.5'>
+    <div className='flex items-center gap-1.5'>
       <Image
         src="/assets/logo.png"
         width={210}
@@ -15,7 +15,7 @@ const Logo: React.FC<LogoProps> = ({ variant }) => {
         className="w-[40px] h-[30px]"
       />
       <div className='flex flex-col mt-1.5'>
-        <span className={`text-xl tracking-title font-black ${variant === "primary" ? "text-white" : "text-foreground"}`}>Xavoslab</span>
+        <span className={`text-xl tracking-title font-extrabold ${variant === "primary" ? "text-white" : "text-foreground"}`}>Xavoslab</span>
       </div>
     </div>
   );

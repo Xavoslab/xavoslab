@@ -5,13 +5,13 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 210 11% 4%;
     --card: 0, 100%, 100%;
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
     --primary: 158, 88%, 44%; 
-    --primary-foreground: 210 40% 98%;
+    --primary-foreground: 0 0% 100%;
     --secondary: 158, 84%, 30%;  
     --secondary-foreground: 222.2 84% 4.9%; 
     --muted: 210 40% 96.1%;
@@ -26,19 +26,19 @@
     --radius: 10px;
     --desc: 215 19% 35%;
     --pastel: 157, 100%, 97%;
-    --medium-pastel: 157, 100%, 97%;
-
+    --viapastel: 156, 71%, 93%;
+    --medium-pastel: 158 100% 78%;
   }
 
   .dark {
-    --background: 210, 11%, 4%;
+    --background: 210 11%, 4%;
     --foreground: 0 0% 100%;
     --card: 210, 7%, 5%;
     --card-foreground: 210 40% 98%;
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%; 
-    --primary: 223 100% 50%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 158, 88%, 44%;
+    --primary-foreground: 210 11%, 4%;
     --secondary: 240 46% 11%;
     --secondary-foreground: 210 40% 98%;
     --muted: 217.2 32.6% 17.5%;
@@ -47,12 +47,13 @@
     --accent-foreground: 210 40% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
+    --border: 210, 4%, 10%;
     --input: 217.2 32.6% 17.5%;
     --ring: 224.3 76.3% 48%;
     --desc: 215 20% 65%;
-    --pastel: 172, 94%, 6%;
-    --medium-pastel: 210, 11%, 4%;
+    --pastel:  172 94% 6%;
+    --viapastel: 174, 78%, 5%;
+    --medium-pastel: 210 11%, 4%;
   }
 }
 @font-face {

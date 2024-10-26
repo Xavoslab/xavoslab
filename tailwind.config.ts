@@ -32,7 +32,9 @@ const config = {
         desc: "hsl(var(--desc))",
         line: "hsl(var(--line))",
         pastel: "hsl(var(--pastel))",
-        pastel: "hsl(var(--pastel))",
+        woi: "rgba(8, 9, 10, 0.14)",
+        mediumpastel: "hsl(var(--medium-pastel))",
+        viapastel: "hsl(var(--viapastel))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         lightdark2: "#1B1B34",
@@ -73,6 +75,7 @@ const config = {
       },
       fontSize: {
         title: "60px",
+        title2: "40px",
         deskripsi: "18px",
       },
       boxShadow: {
@@ -80,7 +83,7 @@ const config = {
       },
       letterSpacing: {
         title: '-1.2px',
-        desc: '-0.16px',
+        desc: '-0.2px',
       },
       keyframes: {
         "accordion-down": {
@@ -100,4 +103,6 @@ const config = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-} sa
+} satisfies Config
+
+export default config

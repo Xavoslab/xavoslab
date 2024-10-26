@@ -42,8 +42,8 @@ const NavigationBar = () => {
 
   const bottom_link = [
     {
-      title: "Galeri",
-      link: "/galeri"
+      title: "Kursus",
+      link: "/kursus"
     },
     {
       title: "Shop",
@@ -94,7 +94,7 @@ const NavigationBar = () => {
             <SheetContent >
               <SheetHeader>
                 <SheetDescription>
-                  <div className="flex flex-col space-y-7 items-start w-full text-lg mt-10 text-foreground">
+                  <div className="flex flex-col space-y-7 items-start w-full text-lg mt-10 text-desc">
                     <SheetClose asChild >
                       <Link href="/" className="font-medium">Beranda</Link>
                     </SheetClose>
