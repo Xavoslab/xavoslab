@@ -37,30 +37,20 @@ const Footer = () => {
   }
   
   return (
-    <section className="bg-primary dark:bg-background" id="footer">
+    <section className="bg-background" id="footer">
       <Container>
         <div className="mx-auto w-full max-w-screen-xl py-8 lg:py-10 ">
           <div className="md:flex md:justify-between pb-12 lg:pb-16">
-            <div className="mb-6 md:mb-0 space-y-4">
+            <div className="mb-8 md:mb-0 space-y-4">
               <Link href="https://smkxaverius.sch.id" target="_blank" className="flex items-center space-x-2">
-                <Logo variant="primary" />
+                <Logo  />
               </Link>
-              <p className="text-card dark:text-desc text-base md:text-xs lg:text-sm font-medium max-w-xs">SMK Xaverius Palembang terletak di Jl.  Betawi Raya, No. 1707 Telp./Fax. (0711) 824264 Kec. Sematang Borang, Palembang, 30163.</p>
-              <div className="space-y-2">
-                <div className="text-card dark:text-desc flex items-center space-x-3">
-                  <MdOutlineEmail size="22px"/>
-                  <span >smkxaverius@gmail.com</span>
-                </div>
-                <div className="text-card dark:text-desc flex items-center space-x-3">
-                  <MdCall size="22px" />
-                  <span >(0711) 824264</span>
-                </div>
-              </div>
+              <p className="text-desc text-base md:text-xs lg:text-sm font-medium max-w-xs">XavosLab adalah platform edukasi online yang menawarkan berbagai kursus di bidang teknologi dan bisnis.</p>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-10 sm:grid-cols-3">
               <div className="flex flex-col md:items-center">
                 <div className="">
-                  <h2 className="mb-6 text-sm font-semibold text-white uppercase  ">
+                  <h2 className="mb-6 text-sm font-semibold text-desc dark:text-foreground  ">
                     Home
                   </h2>
                   <ul className="text-card dark:text-desc font-medium space-y-4">
