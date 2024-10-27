@@ -18,7 +18,7 @@ import { IoPeople } from "react-icons/io5";
 import { RiVerifiedBadgeFill, RiVideoFill } from "react-icons/ri";
 import { TbWorld } from "react-icons/tb";
 
-const Keunggulan = () => {
+const Faq = () => {
   const sourceCards = [
     {
       title: "Pendaftaran Kursus",
@@ -47,9 +47,10 @@ const Keunggulan = () => {
         <section className="py-10 md:py-10 lg:py-28 overflow-hidden">
           <div className="flex flex-col md:items-center justify-between md:space-y-0">
             <div className="md:w-3/4 lg:w-full space-y-2 text-center">
-              <h1 className="font-bold text-4xl lg:text-title2 tracking-title">Mengapa memilih kami?</h1>
-              <p className="text-desc text-base  tracking-desc font-medium">Ketahui alasan mengapa kami adalah  pilihan terbaik untuk kebutuhan <br /> edukasi Anda</p>
-            </div>
+              <h5 className="font-bold tracking-[0.2em] text-primary">FAQ</h5>
+              <h1 className="font-bold text-4xl lg:text-title2 tracking-title">Frequently Asked Questions</h1>
+              <p className="text-desc text-base  tracking-desc font-medium">Punya pertanyaan terkait Xavoslab? Segala hal yang perlu Anda ketahui</p>
+            </div> 
             <div className="w-full">
               <div className="grid grid-cols-1 w-full md:grid-cols-2 lg:grid-cols-4 gap-4 mt-10">
                   {sourceCards.map((_, idx) => (
@@ -72,4 +73,4 @@ const Keunggulan = () => {
   );
 }
 
-export default Keunggulan;
+export default Faq;

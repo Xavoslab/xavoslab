@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Bagaimana Cara Mendesain ",
+    "category": "desain",
+    "description": "Dalam dunia digital yang terus berkembang, mendesain aplikasi menjadi keterampilan yang dibutuhkan tidak hanya oleh pengembang perangkat lunak, tetapi juga oleh berbagai profesional di berbagai industri. ",
+    "creator": "Vanesa Yolanda",
+    "createdAt": "2024, 10, 27",
+    "cover": "/assets/blog/1.png"
+  },
+  {
+    "id": 1,
+    "title": "5 Keterampilan yang Harus Dimiliki seorang Data Engineer",
+    "category": "teknik",
+    "description": "Dalam era big data, peran Data Engineer menjadi semakin vital dalam pengolahan dan pengelolaan data, karena mereka bertanggung jawab untuk merancang, membangun, dan memelihara infrastruktur yang diperlukan untuk mengelola volume data yang sangat besar.",
+    "creator": "Atma Setiawan",
+    "createdAt": "2024, 10, 22",
+    "cover": "/assets/blog/1.png"
+  },
+  {
+    "id": 1,
+    "title": "Tips Mengikuti Lomba LKS SMK Web Technology",
+    "category": "web",
+    "description": "Lomba LKS SMK Web Technology adalah ajang bergengsi bagi siswa untuk menunjukkan kemampuan mereka dalam teknologi web, yang juga menjadi semakin relevan di era digital saat ini, di mana keterampilan dalam pengembangan web dan pemrograman sangat dibutuhkan oleh industri.",
+    "creator": "Rahmad Jaya",
+    "createdAt": "2024, 10, 26",
+    "cover": "/assets/blog/1.png"
+  }
+]

@@ -43,13 +43,6 @@ const Footer = () => {
           <div className="md:flex md:justify-between pb-12 lg:pb-16">
             <div className="mb-6 md:mb-0 space-y-4">
               <Link href="https://smkxaverius.sch.id" target="_blank" className="flex items-center space-x-2">
-                <Image
-                  src="/assets/logo.png"
-                  width={200}
-                  height={200}
-                  alt="logo"
-                  className="w-[46px] h-[46px] "
-                />
                 <Logo variant="primary" />
               </Link>
               <p className="text-card dark:text-desc text-base md:text-xs lg:text-sm font-medium max-w-xs">SMK Xaverius Palembang terletak di Jl.  Betawi Raya, No. 1707 Telp./Fax. (0711) 824264 Kec. Sematang Borang, Palembang, 30163.</p>

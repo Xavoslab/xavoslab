@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Bakiaki Prayoga",
+    "role": "UI/UX Designer",
+    "perusahaan": "Microsoft",
+    "profile": "/assets/mentor/bakiaki.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bella Purwati",
+    "role": "Senior Data Engineer",
+    "perusahaan": "Gojek",
+    "profile": "/assets/mentor/bella.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Agustina Karlinda",
+    "role": "UI/UX Designer",
+    "perusahaan": "Gojek",
+    "profile": "/assets/mentor/agustina.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Liman Zulkanain",
+    "role": "Data Analyst",
+    "perusahaan": "Traveloka",
+    "profile": "/assets/mentor/liman.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Budi Santoso",
+    "role": "Software Designer",
+    "perusahaan": "Ovo",
+    "profile": "/assets/mentor/budi.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Andi Prabowo",
+    "role": "Product Manager",
+    "perusahaan": "Tokopedia",
+    "profile": "/assets/avatar/andi.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Siti Aminah",
+    "role": "Marketing Specialist",
+    "perusahaan": "Bukalapak",
+    "profile": "/assets/avatar/siti.jpg"
+  }
+]

@@ -15,7 +15,7 @@ const Logo: React.FC<LogoProps> = ({ variant }) => {
         className="w-[40px] h-[30px]"
       />
       <div className='flex flex-col mt-1.5'>
-        <span className={`text-xl tracking-title font-extrabold ${variant === "primary" ? "text-white" : "text-foreground"}`}>Xavoslab</span>
+        <span className={`text-[22px] tracking-title font-extrabold ${variant === "primary" ? "text-white" : "text-foreground"}`}>Xavoslab</span>
       </div>
     </div>
   );

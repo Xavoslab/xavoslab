@@ -4,46 +4,49 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 210 11% 4%;
+    --background: 0 0% 100%; /* background putih */
+    --second-background: 210 40% 96.1%;
+    --foreground: 210 11% 4%; /* hitam */
     --card: 0, 100%, 100%;
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 158, 88%, 44%; 
+    --primary: 158, 88%, 44%; /* main green */
     --primary-foreground: 0 0% 100%;
-    --secondary: 157, 100%, 97%;  
-    --secondary-foreground: 158, 84%, 30%; 
+    --secondary: 157, 100%, 97%; /* pastel green */
+    --secondary-foreground: 158, 84%, 30%;  /* dark green */
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
+    --accent: 210 40% 96.1%; /* lightgraybg */
     --accent-foreground: 222.2 47.4% 11.2%;
     --destructive: 0, 73%, 94%;
     --destructive-foreground: 0 62.8% 30.6%;
     --yellow: 51, 100%, 82%;
     --yellow-foreground: 51, 100%, 40%;
+    --tab: 0 0% 100%;
     --border: 0 0% 87%; 
     --input: 214.3 31.8% 91.4%;
     --ring: 221.2 83.2% 53.3%;
     --radius: 10px;
-    --desc: 215 19% 35%;
-    --pastel: 157, 100%, 97%;
-    --viapastel: 156, 71%, 93%;
-    --medium-pastel: 158 100% 78%;
+    --desc: 215 19% 35%; 
+    --pastel: 157, 100%, 97%; /* light pastel */
+    --viapastel: 156, 71%, 93%; /* medium pastel */
+    --medium-pastel: 158 100% 78%; /* dark pastel */
   }
 
   .dark {
-    --background: 210 11%, 4%;
-    --foreground: 0 0% 100%;
+    --background: 210 11%, 4%; /* background hitam */
+    --second-background: 210, 7%, 5%;
+    --foreground: 0 0% 100%; /* putih */
     --card: 210, 7%, 5%;
     --card-foreground: 210 40% 98%;
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%; 
-    --primary: 158, 88%, 44%;
-    --primary-foreground: 210 11%, 4%;
+    --primary: 158, 88%, 44%; /* main green */
+    --primary-foreground: 210 11.11% 3.53%;
     --secondary: 161, 100%, 7%;
     --secondary-foreground: 158, 88%, 44%;
-    --muted: 217.2 32.6% 17.5%;
+    --muted: 217.2 32.6% 17.5%; /* light gray */
     --muted-foreground: 215 20.2% 65.1%;
     --accent: 210, 5%, 7%;
     --accent-foreground: 210 40% 98%;
@@ -51,18 +54,22 @@
     --destructive-foreground: 0, 73%, 94%;
     --yellow: 55, 100%, 9%;
     --yellow-foreground: 51, 100%, 82%;
+    --tab: 0 0% 100%;
     --border: 210, 4%, 10%;
     --input: 217.2 32.6% 17.5%;
     --ring: 224.3 76.3% 48%;
     --desc: 215 20% 65%;
-    --pastel:  172 94% 6%;
-    --viapastel: 174, 78%, 5%;
-    --medium-pastel: 210 11%, 4%;
+    --pastel:  172 94% 6%; /* superdark green */
+    --viapastel: 174, 78%, 5%;  /* medium hitam */
+    --medium-pastel: 210 11%, 4%; /* hitam */
   }
 }
 @font-face {
   font-family: 'Inter';
   src: url(../public/fonts/InterVariable.ttf);
+}
+html {
+  scroll-behavior: smooth;
 }
 body {
   font-family: 'Inter', sans-serif;

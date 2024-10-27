@@ -15,7 +15,6 @@ const Beranda = () => {
   return (
     <>
       <Home />
-   
     </>
   );
 }

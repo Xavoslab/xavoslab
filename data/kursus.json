@@ -8,18 +8,20 @@
       "jam": 2,
       "menit": 25
     },
-    "jumlah_kursus": 4
+    "jumlah_kursus": 4,
+    "kreator": "Putra Gading"
   },
   {
     "id": 2,
-    "title": "Editing Video Menggunakan Adobe Primere Pro",
-    "category": ["popular", "editing"],
+    "title": "Desain Antarmuka Pengguna dengan Figma",
+    "category": ["popular", "uI & uX"],
     "level": 2,
     "durasi": {
-      "jam": 2,
-      "menit": 25
+      "jam": 6,
+      "menit": 41
     },
-    "jumlah_kursus": 11
+    "jumlah_kursus": 11,
+    "kreator": "Reza Alrafa"
   },
   {
     "id": 3,
@@ -27,42 +29,250 @@
     "category": ["popular", "desain grafis"],
     "level": 3,
     "durasi": {
-      "jam": 2,
-      "menit": 25
+      "jam": 11,
+      "menit": 5
     },
-    "jumlah_kursus": 21
+    "jumlah_kursus": 21,
+    "kreator": "Amanda Margaretha"
   },
   {
     "id": 4,
     "title": "Membuat Desain Mobile App Menggunakan Figma",
-    "category": ["popular", "pengembangan web", "desain grafis"],
-    "level": 3,
+    "category": ["popular", "uI & uX"],
+    "level": 1,
     "durasi": {
-      "jam": 2,
-      "menit": 25
+      "jam": 3,
+      "menit": 7
     },
-    "jumlah_kursus": 14
+    "jumlah_kursus": 14,
+    "kreator": "Nisa Purwati"
   },
   {
     "id": 5,
-    "title": "Buat Web",
+    "title": "Pengembangan Web Dasar",
     "category": ["pengembangan web"],
-    "level": 3,
+    "level": 1,
     "durasi": {
-      "jam": 2,
-      "menit": 25
+      "jam": 3,
+      "menit": 0
     },
-    "jumlah_kursus": 14
+    "jumlah_kursus": 6,
+    "kreator": "Budi Santoso"
   },
   {
     "id": 6,
-    "title": "Buat Web",
-    "category": ["popular","pengembangan android", "uI & uX"],
+    "title": "Pengenalan React JS",
+    "category": ["pengembangan web"],
+    "level": 2,
+    "durasi": {
+      "jam": 4,
+      "menit": 30
+    },
+    "jumlah_kursus": 8,
+    "kreator": "Dina Putri"
+  },
+  {
+    "id": 7,
+    "title": "Laravel untuk Pemula",
+    "category": ["pengembangan web"],
+    "level": 1,
+    "durasi": {
+      "jam": 2,
+      "menit": 15
+    },
+    "jumlah_kursus": 5,
+    "kreator": "Eka Pramudita"
+  },
+  {
+    "id": 8,
+    "title": "Desain Responsif dengan Bootstrap",
+    "category": ["pengembangan web"],
+    "level": 2,
+    "durasi": {
+      "jam": 1,
+      "menit": 45
+    },
+    "jumlah_kursus": 7,
+    "kreator": "Fanny Sari"
+  },
+  {
+    "id": 9,
+    "title": "Pengantar Desain Grafis",
+    "category": ["desain grafis"],
+    "level": 1,
+    "durasi": {
+      "jam": 2,
+      "menit": 0
+    },
+    "jumlah_kursus": 4,
+    "kreator": "Rani Lestari"
+  },
+  {
+    "id": 10,
+    "title": "Adobe Photoshop untuk Pemula",
+    "category": ["desain grafis"],
+    "level": 1,
+    "durasi": {
+      "jam": 3,
+      "menit": 30
+    },
+    "jumlah_kursus": 5,
+    "kreator": "Siti Nurhaliza"
+  },
+  {
+    "id": 11,
+    "title": "Ilustrasi Digital dengan Procreate",
+    "category": ["desain grafis"],
+    "level": 2,
+    "durasi": {
+      "jam": 2,
+      "menit": 30
+    },
+    "jumlah_kursus": 6,
+    "kreator": "Tina Mariana"
+  },
+  {
+    "id": 12,
+    "title": "Dasar-Dasar Pemasaran Digital",
+    "category": ["pemasaran digital"],
+    "level": 1,
+    "durasi": {
+      "jam": 2,
+      "menit": 15
+    },
+    "jumlah_kursus": 4,
+    "kreator": "Rizki Alamsyah"
+  },
+  {
+    "id": 13,
+    "title": "Strategi Konten Media Sosial",
+    "category": ["pemasaran digital"],
+    "level": 2,
+    "durasi": {
+      "jam": 3,
+      "menit": 20
+    },
+    "jumlah_kursus": 8,
+    "kreator": "Nia Ayu"
+  },
+  {
+    "id": 14,
+    "title": "SEO untuk Pemula",
+    "category": ["pemasaran digital"],
+    "level": 1,
+    "durasi": {
+      "jam": 2,
+      "menit": 40
+    },
+    "jumlah_kursus": 6,
+    "kreator": "Aulia Rahman"
+  },
+  {
+    "id": 15,
+    "title": "Analisis Data untuk Pemasaran",
+    "category": ["pemasaran digital"],
+    "level": 3,
+    "durasi": {
+      "jam": 4,
+      "menit": 10
+    },
+    "jumlah_kursus": 5,
+    "kreator": "Julianto"
+  },
+  {
+    "id": 16,
+    "title": "Dasar-Dasar Analisis Data",
+    "category": ["data analisis"],
+    "level": 1,
+    "durasi": {
+      "jam": 2,
+      "menit": 15
+    },
+    "jumlah_kursus": 4,
+    "kreator": "Rina Wulandari"
+  },
+  {
+    "id": 17,
+    "title": "Visualisasi Data dengan Tableau",
+    "category": ["data analisis"],
+    "level": 2,
+    "durasi": {
+      "jam": 3,
+      "menit": 30
+    },
+    "jumlah_kursus": 6,
+    "kreator": "Nadia Rahma"
+  },
+  {
+    "id": 18,
+    "title": "Analisis Data Menggunakan Python",
+    "category": ["data analisis"],
+    "level": 2,
+    "durasi": {
+      "jam": 4,
+      "menit": 0
+    },
+    "jumlah_kursus": 5,
+    "kreator": "Faris S"
+  },
+  {
+    "id": 19,
+    "title": "Statistik Dasar untuk Data Science",
+    "category": ["data analisis"],
+    "level": 3,
+    "durasi": {
+      "jam": 3,
+      "menit": 15
+    },
+    "jumlah_kursus": 4,
+    "kreator": "Lina M"
+  },
+  {
+    "id": 20,
+    "title": "Pengembangan Aplikasi Android untuk Pemula",
+    "category": ["pengembangan android"],
+    "level": 1,
+    "durasi": {
+      "jam": 2,
+      "menit": 30
+    },
+    "jumlah_kursus": 5,
+    "kreator": "Arif H"
+  },
+  {
+    "id": 21,
+    "title": "Kotlin untuk Pengembangan Aplikasi",
+    "category": ["pengembangan android"],
+    "level": 2,
+    "durasi": {
+      "jam": 3,
+      "menit": 45
+    },
+    "jumlah_kursus": 6,
+    "kreator": "Eka S"
+  },
+  {
+    "id": 22,
+    "title": "Firebase untuk Aplikasi Android",
+    "category": ["pengembangan android"],
+    "level": 3,
+    "durasi": {
+      "jam": 4,
+      "menit": 0
+    },
+    "jumlah_kursus": 3,
+    "kreator": "Nanda P"
+  },
+  {
+    "id": 23,
+    "title": "Pengujian Aplikasi Android",
+    "category": ["pengembangan android"],
     "level": 3,
     "durasi": {
       "jam": 2,
-      "menit": 25
+      "menit": 11
     },
-    "jumlah_kursus": 14
+    "jumlah_kursus": 5,
+    "kreator": "Rifki Akbar"
   }
 ]

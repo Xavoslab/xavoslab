@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Hendra Saputra",
+    "role": "UI/UX Designer",
+    "testi": "Tahun lalu, saya mengikuti kursus di Xavoslab, materi yang disampaikan sangat relevan dan praktis, serta para mentor selalu siap membantu. Sangat merekomendasikan!",
+    "profile": "/assets/avatar/hendra.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Silvia Yulianti",
+    "role": "Software Engineer",
+    "testi": "Saya sangat puas mengikuti kursus di Xavlabs! Pengajarnya sangat berpengalaman dan metode pengajarannya membuat materi kompleks menjadi mudah dipahami. Selain itu, dukungan komunitasnya luar biasa. Xavlabs benar-benar pilihan yang tepat!",
+    "profile": "/assets/avatar/silvia.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Aditya Pratama",
+    "role": "Product Manager",
+    "testi": "Tahun lalu, saya mengikuti kursus di Xavoslab, dan itu mengubah cara pandang saya tentang belajar. Saya merasa lebih percaya diri dan siap menghadapi tantangan di dunia kerja. Sangat merekomendasikan!",
+    "profile": "/assets/avatar/aditya.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Rina Setiawan",
+    "role": "Software Engineer",
+    "testi": "Materi yang diajarkan sangat mendalam dan aplikatif, dan pengajaran dari para mentor sangat inspiratif. Sukses terus Xavoslab!",
+    "profile": "/assets/avatar/rina.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Budi Santoso",
+    "role": "Digital Marketing Specialist",
+    "testi": "Xavoslab memberikan pengalaman belajar yang luar biasa. Kursus yang saya ikuti benar-benar meningkatkan pemahaman saya tentang digital marketing. Saya merasa lebih siap menghadapi perubahan cepat di industri ini. Highly recommended!",
+    "profile": "/assets/avatar/budi.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Dewi Lestari",
+    "role": "Data Analyst",
+    "testi": "Saya sangat berterima kasih kepada Xavoslab atas kursus yang saya ambil. Saya merasa lebih percaya diri dalam mengambil keputusan berbasis data. Sangat merekomendasikan kepada siapa pun yang ingin mengasah keterampilan analisis data!",
+    "profile": "/assets/avatar/dewi.jpg"
+  }
+]
