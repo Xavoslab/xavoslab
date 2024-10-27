@@ -32,7 +32,7 @@ const config = {
         desc: "hsl(var(--desc))",
         line: "hsl(var(--line))",
         pastel: "hsl(var(--pastel))",
-        woi: "rgba(8, 9, 10, 0.14)",
+        liner: "rgba(8, 9, 10, 0.14)",
         mediumpastel: "hsl(var(--medium-pastel))",
         viapastel: "hsl(var(--viapastel))",
         background: "hsl(var(--background))",
@@ -50,7 +50,10 @@ const config = {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
         },
-
+        yellow: {
+          DEFAULT: "hsl(var(--yellow))",
+          foreground: "hsl(var(--yellow-foreground))",
+        },
         muted: {
           DEFAULT: "hsl(var(--muted))",
           foreground: "hsl(var(--muted-foreground))",
@@ -69,6 +72,7 @@ const config = {
         },
       },
       borderRadius: {
+        xl: "20px",
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",

@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Python Untuk Pemula",
+    "category": ["popular"],
+    "level": 1,
+    "durasi": {
+      "jam": 2,
+      "menit": 25
+    },
+    "jumlah_kursus": 4
+  },
+  {
+    "id": 2,
+    "title": "Editing Video Menggunakan Adobe Primere Pro",
+    "category": ["popular", "editing"],
+    "level": 2,
+    "durasi": {
+      "jam": 2,
+      "menit": 25
+    },
+    "jumlah_kursus": 11
+  },
+  {
+    "id": 3,
+    "title": "Masterclass Desain Grafis",
+    "category": ["popular", "desain grafis"],
+    "level": 3,
+    "durasi": {
+      "jam": 2,
+      "menit": 25
+    },
+    "jumlah_kursus": 21
+  },
+  {
+    "id": 4,
+    "title": "Membuat Desain Mobile App Menggunakan Figma",
+    "category": ["popular", "pengembangan web", "desain grafis"],
+    "level": 3,
+    "durasi": {
+      "jam": 2,
+      "menit": 25
+    },
+    "jumlah_kursus": 14
+  },
+  {
+    "id": 5,
+    "title": "Buat Web",
+    "category": ["pengembangan web"],
+    "level": 3,
+    "durasi": {
+      "jam": 2,
+      "menit": 25
+    },
+    "jumlah_kursus": 14
+  },
+  {
+    "id": 6,
+    "title": "Buat Web",
+    "category": ["popular","pengembangan android", "uI & uX"],
+    "level": 3,
+    "durasi": {
+      "jam": 2,
+      "menit": 25
+    },
+    "jumlah_kursus": 14
+  }
+]
