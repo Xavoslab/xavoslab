@@ -52,9 +52,9 @@ const Mitra = () => {
               <p className="text-desc text-base lg:text-deskripsi tracking-desc font-normal">Digunakan oleh +50 perusahaan dari berbagai industri</p>
             </div>
             <div >
-              <div className="grid grid-cols-2 md:grid-cols-3  lg:grid-cols-6 gap-x-8 gap-y-3  mt-16 text-center ">
+              <div className="grid grid-cols-2 md:grid-cols-3  lg:grid-cols-6 gap-x-8 gap-y-3 mt-10 lg:mt-16 text-center ">
                 {sourceImages.map((_, idx) => (
-                  <div className="flex justify-center items-center">
+                  <div className="flex justify-center items-center" key={idx}>
                     <Image
                       src={_}
                       width={_.width}

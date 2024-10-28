@@ -2,13 +2,6 @@
 
 import Image from "next/image";
 import Link from 'next/link'
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
 import Container from "@/components/container";
 import { Button } from "@/components/ui/button"
 import { MdOutlineShoppingCart } from "react-icons/md";
@@ -48,11 +41,11 @@ const Keunggulan = () => {
           <div className="flex flex-col md:items-center justify-between md:space-y-0">
             <div className="md:w-3/4 lg:w-full space-y-2 text-center">
               <h1 className="font-bold text-4xl lg:text-title2 tracking-title">Mengapa memilih kami?</h1>
-              <p className="text-desc text-base  tracking-desc font-medium">Ketahui alasan mengapa kami adalah  pilihan terbaik untuk kebutuhan <br /> edukasi Anda</p>
+              <p className="text-desc text-base  tracking-desc font-medium">Ketahui alasan mengapa kami adalah pilihan terbaik untuk kebutuhan <br className="hidden md:block" /> edukasi Anda</p>
             </div>
             <div className="w-full">
               <div className="grid grid-cols-1 w-full md:grid-cols-2 lg:grid-cols-4 gap-4 mt-10">
-                  {sourceCards.map((_, idx) => (
+                  {sourceCards.map((_, idx) =>  (
                     <div key={idx}>
                       <div className="min-h-[210px] relative border border-border rounded-xl dark:bg-card" key={idx}>
                         <div className="text-[25px] m-5 text-primary bg-pastel p-4 py-3.5 w-fit rounded-lg">{_.icon}</div>

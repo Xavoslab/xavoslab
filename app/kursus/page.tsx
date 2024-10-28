@@ -8,14 +8,9 @@ import {
   TabsTrigger,
 } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-
-import { IoPeople } from "react-icons/io5";
 import { FaRegClock } from "react-icons/fa6";
 import { FiVideo } from "react-icons/fi";
 import { GoDotFill } from "react-icons/go";
-
-import { RiVerifiedBadgeFill, RiVideoFill } from "react-icons/ri";
 
 import kursusList from "../../data/kursus.json"
 
@@ -29,6 +24,7 @@ interface kursusData {
     menit?: number;
   };
   jumlah_kursus?: number;
+  gambar?: string;
   kreator?: string;
 }
 
@@ -56,10 +52,10 @@ const Kursus = () => {
           </div>
           <div className="py-3 w-full">
             <Tabs defaultValue={sourceCategories[0]} className="">
-              <div className="mt-8 flex flex-col md:items-center justify-center">
+              <div className="mt-8 flex flex-col lg:items-center justify-center snap-proximity snap-x overflow-x-auto tab-container scroll-my-1 pb-2.5">
                 <TabsList>
                   {sourceCategories.map((kategori, idx) => (
-                    <TabsTrigger key={idx} value={kategori}>{kategori}</TabsTrigger>
+                    <TabsTrigger key={idx} value={kategori} className="snap-center">{kategori}</TabsTrigger>
                   ))}
                 </TabsList>
               </div>
@@ -71,8 +67,8 @@ const Kursus = () => {
                         <div key={kursus.id} className="border cursor-pointer relative border-border dark:bg-card rounded-xl p-4">
                           <div>
                             <Image
-                              src="/assets/osiska.png"
-                              width={500}
+                              src={kursus.gambar ? kursus.gambar : "/assets/kursus/img.png"}
+                              width={1200}
                               height={800}
                               alt="laptop"
                               className="w-full min-h-[150px] rounded-lg object-cover"

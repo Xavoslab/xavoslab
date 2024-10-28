@@ -1,33 +1,19 @@
 "use client"
 import Image from "next/image";
 import Container from "@/components/container";
-import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-
-import { IoPeople } from "react-icons/io5";
-import { FaRegClock } from "react-icons/fa6";
-import { FiVideo } from "react-icons/fi";
-import { GoDotFill } from "react-icons/go";
-
-import { RiVerifiedBadgeFill, RiVideoFill } from "react-icons/ri";
-
 import artikelList from "../../data/artikel.json"
 
 interface artikelData {
   id?: number;
   title?: string;
-  category?: string[];
+  category?: string;
   description?: string;
   creator?: string;
   level?: number;
   createdAt?: string;
-  coer?: string;
+  cover?: string;
 }
 
 const artikel_data = artikelList as artikelData[];
@@ -58,10 +44,10 @@ const Artikel = () => {
               <p className="text-desc text-base tracking-desc font-normal">Tingkatkan keterampilan dan pengetahuan Anda</p>
             </div>
             <div className="py-7 w-full">
-              <h2 className="font-bold tracking-title text-[28px]">Artikel Terbaru</h2>
+              <h2 className="font-bold tracking-title text-[28px] mb-4">Artikel Terbaru</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-2 mb-4">
                 {artikel_data.map((artikel) => (
-                  <div key={artikel.id} className="bg-background cursor-pointer dark:bg-accent min-h-[400px] relative rounded-xl">
+                  <div key={artikel.id} className="bg-background cursor-pointer dark:bg-card2 min-h-[400px] relative rounded-xl dark:border border-border2">
                     <div className="p-5">
                       <div className="">
                         <Image
@@ -92,7 +78,7 @@ const Artikel = () => {
                           </div>
                           <p className="font-semibold text-foreground text-sm">{artikel.creator}</p>
                         </div>
-                        <p className="text-desc text-sm">{convertTanggal(artikel.createdAt)}</p>
+                        <p className="text-desc text-sm">{artikel.createdAt ? convertTanggal(artikel.createdAt) : ''}</p>
                       </div>
                     </div>
                   </div>

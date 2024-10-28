@@ -56,14 +56,14 @@ const Fitur = () => {
 
   return (
     <Container>
-      <section id="fitur" className="py-10 md:pt-10 lg:pt-28 overflow-hidden">
+      <section id="fitur" className="py-10 md:pt-10 lg:pt-28 lg:pb-20 overflow-hidden">
         <div className="flex flex-col md:items-center justify-center md:space-y-0">
           <div className="md:w-3/4 lg:w-full space-y-2 text-center">
             <h5 className="font-bold tracking-[0.2em] text-primary">FITUR</h5>
             <h1 className="font-bold text-4xl lg:text-title2 tracking-title">Tingkatkan skill & kompetensi di <br className="hidden md:block" /> manapun dan kapanpun</h1>
             <p className="text-desc text-base tracking-desc font-normal">Dapatkan akses untuk materi pembelajaran video, bahan, project, dan studi <br className="hidden md:block" /> kasus yang ingin anda pilih di manapun dan kapanpun.</p>
           </div>
-          <div className="w-full relative sm:-top-8 md:-top-12 lg:-top-16 border-b border-border pb-6">
+          <div className="w-full relative sm:-top-10 md:-top-12 lg:-top-16 border-b border-border pb-6">
             <Image
               src={`/assets/${theme === 'dark' ? 'dashboarddark.png' : 'dashboardlight.png'}`}
               width={1500}
@@ -71,13 +71,13 @@ const Fitur = () => {
               alt="laptop"
             />
           </div>
-          <div className="grid grid-cols-1 w-full md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-1 md:gap-x-2 lg:gap-x-1 gap-y-5 relative md:-top-12 lg:-top-2  xl:-top-3 ">
+          <div className="grid grid-cols-1 w-full md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-1 md:gap-x-2 lg:gap-x-1 gap-y-5 pt-8 sm:pt-2  lg:pt-0 relative md:-top-3 lg:-top-2 xl:-top-3 ">
 
             {dataFitur.map((_, idx) => (
               <div className="flex" key={idx}>
                 <div className={`mt-1 text-[${_.size}px]`}>{_.icon}</div>
                 <div className="ml-2">
-                  <p className="font-semibold ">{_.title}</p>
+                  <p className="font-semibold pb-1 md:pb-2.5">{_.title}</p>
                   <span className="text-sm text-desc ">{_.desc}</span>
                 </div>
               </div>

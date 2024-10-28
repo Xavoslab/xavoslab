@@ -14,7 +14,7 @@ const TabsList = React.forwardRef<
   <TabsPrimitive.List
     ref={ref}
     className={cn(
-      "flex flex-wrap gap-3",
+      "flex gap-3",
       className
     )}
     {...props}
@@ -33,7 +33,7 @@ const TabsTrigger = React.forwardRef<
       className
     )}
     {...props}
-  />
+/>
 ))
 TabsTrigger.displayName = TabsPrimitive.Trigger.displayName
 
@@ -44,7 +44,7 @@ const TabsContent = React.forwardRef<
   <TabsPrimitive.Content
     ref={ref}
     className={cn(
-      "mt-8 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2",
+      "mt-6 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2",
       className
     )}
     {...props}

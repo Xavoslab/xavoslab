@@ -1,9 +1,6 @@
 "use client"
 
 import Container from "@/components/container";
-import { IoPeople } from "react-icons/io5";
-import { RiVerifiedBadgeFill, RiVideoFill } from "react-icons/ri";
-import { TbWorld } from "react-icons/tb";
 import {
   Accordion,
   AccordionContent,

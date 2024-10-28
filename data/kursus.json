@@ -9,6 +9,7 @@
       "menit": 25
     },
     "jumlah_kursus": 4,
+    "gambar": "/assets/kursus/img1.jpg",
     "kreator": "Putra Gading"
   },
   {
@@ -21,6 +22,7 @@
       "menit": 41
     },
     "jumlah_kursus": 11,
+    "gambar": "/assets/kursus/img5.jpg",
     "kreator": "Reza Alrafa"
   },
   {
@@ -33,6 +35,7 @@
       "menit": 5
     },
     "jumlah_kursus": 21,
+    "gambar": "/assets/kursus/img3.png",
     "kreator": "Amanda Margaretha"
   },
   {
@@ -45,6 +48,7 @@
       "menit": 7
     },
     "jumlah_kursus": 14,
+    "gambar": "/assets/kursus/img6.jpg",
     "kreator": "Nisa Purwati"
   },
   {
@@ -57,6 +61,7 @@
       "menit": 0
     },
     "jumlah_kursus": 6,
+    "gambar": "/assets/kursus/img2.jpg",
     "kreator": "Budi Santoso"
   },
   {
@@ -69,6 +74,7 @@
       "menit": 30
     },
     "jumlah_kursus": 8,
+    "gambar": "/assets/kursus/img4.png",
     "kreator": "Dina Putri"
   },
   {
@@ -81,6 +87,7 @@
       "menit": 15
     },
     "jumlah_kursus": 5,
+    "gambar": "/assets/kursus/img2.jpg",
     "kreator": "Eka Pramudita"
   },
   {
@@ -93,6 +100,7 @@
       "menit": 45
     },
     "jumlah_kursus": 7,
+    "gambar": "/assets/kursus/img4.png",
     "kreator": "Fanny Sari"
   },
   {
@@ -105,6 +113,7 @@
       "menit": 0
     },
     "jumlah_kursus": 4,
+    "gambar": "/assets/kursus/img5.jpg",
     "kreator": "Rani Lestari"
   },
   {
@@ -117,6 +126,7 @@
       "menit": 30
     },
     "jumlah_kursus": 5,
+    "gambar": "/assets/kursus/img3.png",
     "kreator": "Siti Nurhaliza"
   },
   {
@@ -129,6 +139,7 @@
       "menit": 30
     },
     "jumlah_kursus": 6,
+    "gambar": "/assets/kursus/img6.jpg",
     "kreator": "Tina Mariana"
   },
   {
@@ -141,6 +152,7 @@
       "menit": 15
     },
     "jumlah_kursus": 4,
+    "gambar": "/assets/kursus/img.png",
     "kreator": "Rizki Alamsyah"
   },
   {
@@ -153,6 +165,7 @@
       "menit": 20
     },
     "jumlah_kursus": 8,
+    "gambar": "/assets/kursus/img.png",
     "kreator": "Nia Ayu"
   },
   {
@@ -165,6 +178,7 @@
       "menit": 40
     },
     "jumlah_kursus": 6,
+    "gambar": "/assets/kursus/img.png",
     "kreator": "Aulia Rahman"
   },
   {
@@ -177,6 +191,7 @@
       "menit": 10
     },
     "jumlah_kursus": 5,
+    "gambar": "/assets/kursus/img.png",
     "kreator": "Julianto"
   },
   {
@@ -189,6 +204,7 @@
       "menit": 15
     },
     "jumlah_kursus": 4,
+    "gambar": "/assets/kursus/img1.png",
     "kreator": "Rina Wulandari"
   },
   {
@@ -201,6 +217,7 @@
       "menit": 30
     },
     "jumlah_kursus": 6,
+    "gambar": "/assets/kursus/img1.png",
     "kreator": "Nadia Rahma"
   },
   {
@@ -213,6 +230,7 @@
       "menit": 0
     },
     "jumlah_kursus": 5,
+    "gambar": "/assets/kursus/img1.png",
     "kreator": "Faris S"
   },
   {
@@ -225,6 +243,7 @@
       "menit": 15
     },
     "jumlah_kursus": 4,
+    "gambar": "/assets/kursus/img1.png",
     "kreator": "Lina M"
   },
   {
@@ -237,6 +256,7 @@
       "menit": 30
     },
     "jumlah_kursus": 5,
+    "gambar": "/assets/kursus/img7.jpg",
     "kreator": "Arif H"
   },
   {
@@ -249,6 +269,7 @@
       "menit": 45
     },
     "jumlah_kursus": 6,
+    "gambar": "/assets/kursus/img7.jpg",
     "kreator": "Eka S"
   },
   {
@@ -261,6 +282,7 @@
       "menit": 0
     },
     "jumlah_kursus": 3,
+    "gambar": "/assets/kursus/img7.jpg",
     "kreator": "Nanda P"
   },
   {
@@ -273,6 +295,7 @@
       "menit": 11
     },
     "jumlah_kursus": 5,
+    "gambar": "/assets/kursus/img7.jpg",
     "kreator": "Rifki Akbar"
   }
 ]

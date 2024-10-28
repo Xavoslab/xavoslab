@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* width */
+.tab-container::-webkit-scrollbar {
+  height: 5px;
+}
+
+/* Track */
+
+/* Handle */
+.tab-container::-webkit-scrollbar-thumb {
+  background: hsl(var(--accent));
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.tab-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%; /* background putih */
@@ -9,6 +27,7 @@
     --foreground: 210 11% 4%; /* hitam */
     --card: 0, 100%, 100%;
     --card-foreground: 222.2 84% 4.9%;
+    --card2: 0, 100%, 100%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
     --primary: 158, 88%, 44%; /* main green */
@@ -25,6 +44,7 @@
     --yellow-foreground: 51, 100%, 40%;
     --tab: 0 0% 100%;
     --border: 0 0% 87%; 
+    --border2: #DFDFDF;
     --input: 214.3 31.8% 91.4%;
     --ring: 221.2 83.2% 53.3%;
     --radius: 10px;
@@ -36,10 +56,11 @@
 
   .dark {
     --background: 210 11%, 4%; /* background hitam */
-    --second-background: 210, 7%, 5%;
+    --second-background: 210, 6%, 6%;
     --foreground: 0 0% 100%; /* putih */
     --card: 210 5% 7%; /* lightdark2 */
     --card-foreground: 210 40% 98%;
+    --card2: 210, 4%, 9%; /* card2 */
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%; 
     --primary: 158, 88%, 44%; /* main green */
@@ -56,6 +77,7 @@
     --yellow-foreground: 51, 100%, 82%;
     --tab: 0 0% 100%;
     --border: 210, 4%, 10%;
+    --border2: #202122; /* stroke_dark2 */
     --input: 217.2 32.6% 17.5%;
     --ring: 224.3 76.3% 48%;
     --desc: 215 20% 65%;
