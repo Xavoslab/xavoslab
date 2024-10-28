@@ -54,7 +54,7 @@ const Keunggulan = () => {
               <div className="grid grid-cols-1 w-full md:grid-cols-2 lg:grid-cols-4 gap-4 mt-10">
                   {sourceCards.map((_, idx) => (
                     <div key={idx}>
-                      <div className="min-h-[210px] relative border border-border rounded-xl dark:bg-accent" key={idx}>
+                      <div className="min-h-[210px] relative border border-border rounded-xl dark:bg-card" key={idx}>
                         <div className="text-[25px] m-5 text-primary bg-pastel p-4 py-3.5 w-fit rounded-lg">{_.icon}</div>
                         <div className="absolute bottom-0 p-5">
                           <h1 className="font-bold tracking-desc text-deskripsi">{_.title}</h1>

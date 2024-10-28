@@ -44,7 +44,7 @@ const Testimonial = () => {
                   <CarouselContent className="pl-4 pr-3">
                     {testi_data.map((_, index) => (
                       <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/3">
-                        <div className="p-5 bg-background dark:bg-accent rounded-xl h-full">
+                        <div className="p-5 bg-background dark:bg-card rounded-xl h-full">
                           <div className="flex space-x-2.5 items-center">
                             <div className="">
                               <Image

@@ -45,7 +45,7 @@ const Mitra = () => {
 
   return ( 
       <Container>
-        <section className="py-10 md:py-10 lg:py-16 overflow-hidden">
+        <section id="mitra" className="py-10 md:py-10 lg:py-16 overflow-hidden">
           <div className="flex flex-col md:items-center justify-between md:space-x-2 md:space-y-0">
             <div className="md:w-3/4 lg:w-full text-center">
               <p className="text-foreground text-base lg:text-deskripsi tracking-desc font-semibold">Telah dipercaya oleh start-up & perusahaan</p>

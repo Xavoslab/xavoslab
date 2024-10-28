@@ -63,7 +63,7 @@ const Fitur = () => {
             <h1 className="font-bold text-4xl lg:text-title2 tracking-title">Tingkatkan skill & kompetensi di <br className="hidden md:block" /> manapun dan kapanpun</h1>
             <p className="text-desc text-base tracking-desc font-normal">Dapatkan akses untuk materi pembelajaran video, bahan, project, dan studi <br className="hidden md:block" /> kasus yang ingin anda pilih di manapun dan kapanpun.</p>
           </div>
-          <div className="w-full relative sm:-top-8 md:-top-12 lg:-top-16">
+          <div className="w-full relative sm:-top-8 md:-top-12 lg:-top-16 border-b border-border pb-6">
             <Image
               src={`/assets/${theme === 'dark' ? 'dashboarddark.png' : 'dashboardlight.png'}`}
               width={1500}
@@ -71,7 +71,7 @@ const Fitur = () => {
               alt="laptop"
             />
           </div>
-          <div className="grid grid-cols-1 w-full md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-1 md:gap-x-2 lg:gap-x-1 gap-y-5 relative md:-top-10 lg:-top-16 xl:-top-20">
+          <div className="grid grid-cols-1 w-full md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-1 md:gap-x-2 lg:gap-x-1 gap-y-5 relative md:-top-12 lg:-top-2  xl:-top-3 ">
 
             {dataFitur.map((_, idx) => (
               <div className="flex" key={idx}>

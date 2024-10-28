@@ -21,6 +21,7 @@ interface mentorData {
   role?: string;
   testi?: string;
   profile?: string;
+  perusahaan?: string;
 }
 
 const mentor_data = mentorList as mentorData[];
@@ -45,7 +46,7 @@ const Mentor = () => {
                 <CarouselContent className="pl-4 pr-3">
                   {mentor_data.map((_, index) => (
                     <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/4">
-                      <div className="px-5 py-7 border border-border bg-background dark:bg-accent rounded-xl h-full">
+                      <div className="px-5 py-7 border border-border bg-card rounded-xl h-full">
                         
                         <div className="flex flex-col gap-4 justify-center w-full items-center">
                           <div className="">

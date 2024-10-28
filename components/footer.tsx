@@ -29,6 +29,28 @@ const Footer = () => {
     },
   ]
 
+  const footerItem = [
+    {
+      id: 1,
+      title: "Xavoslab",
+      footer_item: [
+        {
+          name: "Tentang Kami"
+          link: "#"
+        }, 
+        {
+          name: "Tenta"
+          link: "#"
+        }
+        {
+          name: "Tenta"
+          link: "#"
+        }
+        
+      ]
+    },
+  ]
+
   const currentYear = () => {
     const currentDate = new Date();
     const year = currentDate.getFullYear();
@@ -50,10 +72,10 @@ const Footer = () => {
             <div className="grid grid-cols-2 gap-8 sm:gap-10 sm:grid-cols-3">
               <div className="flex flex-col md:items-center">
                 <div className="">
-                  <h2 className="mb-6 text-sm font-semibold text-desc dark:text-foreground  ">
+                  <h2 className="mb-6 font-semibold text-desc dark:text-foreground  ">
                     Home
                   </h2>
-                  <ul className="text-card dark:text-desc font-medium space-y-4">
+                  <ul className="text-lightgray dark:text-desc font-medium space-y-4">
                     <li >
                       <Link
                         href="/tentang"
@@ -72,10 +94,10 @@ const Footer = () => {
               </div>
               <div className="flex flex-col md:items-center">
                 <div className="">
-                  <h2 className="mb-6 text-sm font-semibold text-white uppercase">
+                  <h2 className="mb-6 font-semibold  capitalize">
                     Organisasi
                   </h2>
-                  <ul className="text-card dark:text-desc font-medium space-y-4">
+                  <ul className="text-lightgray dark:text-desc font-medium space-y-4">
                     <li >
                       <Link
                         href="/katasambutan"
@@ -137,10 +159,10 @@ const Footer = () => {
               </div>
               <div className="flex flex-col md:items-center">
                 <div className="">
-                  <h2 className="mb-6 text-sm font-semibold  uppercase text-white">
+                  <h2 className="mb-6 font-semibold capitalize">
                     lainnya
                   </h2>
-                  <ul className="text-card dark:text-desc font-medium space-y-4">
+                  <ul className="text-lightgray dark:text-desc font-medium space-y-4">
                     <li >
                       <Link
                         href="/galeri"
@@ -174,7 +196,7 @@ const Footer = () => {
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="text-sm text-card dark:text-desc sm:text-center">
+            <span className="text-sm text-desc dark:text-desc sm:text-center">
               © {currentYear()} {''} Created By {''}
               <Link href="/sekbid/3" className="hover:underline hover:decoration-primary underline-offset-4">
                 Sekbid 3 OSIS SMK Xaverius Palembang
@@ -183,7 +205,7 @@ const Footer = () => {
             </span>
             <div className="flex mt-4 sm:justify-center sm:mt-0 space-x-4">
               {socialmedia.map((_, idx) => (
-                <Link key={idx} href={_.link} target="_blank" className="text-card dark:text-desc hover:text-white dark:hover:text-primary ">
+                <Link key={idx} href={_.link} target="_blank" className="text-desc dark:text-desc hover:text-white dark:hover:text-primary ">
                     {_.icon}
                 </Link>
               ))}

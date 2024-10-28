@@ -68,7 +68,7 @@ const Kursus = () => {
                   <TabsContent key={kategori} value={kategori}>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                       {filterKursus(kategori).map((kursus) => (
-                        <div key={kursus.id} className="border cursor-pointer relative border-border dark:bg-accent rounded-xl p-4">
+                        <div key={kursus.id} className="border cursor-pointer relative border-border dark:bg-card rounded-xl p-4">
                           <div>
                             <Image
                               src="/assets/osiska.png"

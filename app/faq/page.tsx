@@ -46,9 +46,9 @@ const Faq = () => {
               <p className="text-desc text-base  tracking-desc font-medium">Punya pertanyaan terkait Xavoslab? Segala hal yang perlu Anda ketahui</p>
             </div> 
             <div className="w-full md:w-3/4">
-              <Accordion type="single" collapsible>
+              <Accordion type="single" collapsible >
                 {sourceCards.map((_, idx) => (
-                  <AccordionItem value={_.title}>
+                  <AccordionItem value={_.title} key={idx}>
                     <AccordionTrigger>{_.title}</AccordionTrigger>
                     <AccordionContent>
                       {_.description}
